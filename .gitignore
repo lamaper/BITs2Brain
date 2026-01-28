@@ -1,0 +1,25 @@
+BrainEnv/
+
+# --- Python 缓存 ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- 敏感信息与配置 ---
+.env
+.flaskenv
+
+# --- 数据与数据库 (核心：避免将巨大的向量库传到 Git) ---
+data/
+*.db
+*.sqlite3
+raw_dialogue.json
+
+# --- 爬虫相关 ---
+.playwright/
+playwright/.auth/
+*.log
+
+# --- 系统文件 ---
+.DS_Store
+Thumbs.db

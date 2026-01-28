@@ -1,0 +1,21 @@
+# --- 核心 Web API ---
+fastapi[all]
+python-multipart
+
+# --- 自动化与爬虫 ---
+playwright
+playwright-stealth
+beautifulsoup4
+markdownify
+
+# --- LLM 与 向量库 (全 API 驱动) ---
+langchain
+langchain-google-genai    # 即使是 Embedding 也用 Gemini 的接口
+langchain-openai          # 兼容 OpenAI 和 DeepSeek
+langchain-community
+chromadb                  # 轻量级数据库，用来存 API 返回的向量数据
+
+# --- 环境工具 ---
+python-dotenv
+httpx
+loguru
