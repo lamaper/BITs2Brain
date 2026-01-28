@@ -1,5 +1,5 @@
 BrainEnv/
-
+knowledge_base/
 # --- Python 缓存 ---
 __pycache__/
 *.py[cod]
@@ -16,6 +16,8 @@ data/
 raw_dialogue.json
 debug_page.html
 structured_knowledge.json
+temp_raw.json
+
 # --- 爬虫相关 ---
 .playwright/
 playwright/.auth/
