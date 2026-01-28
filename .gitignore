@@ -14,7 +14,8 @@ data/
 *.db
 *.sqlite3
 raw_dialogue.json
-
+debug_page.html
+structured_knowledge.json
 # --- 爬虫相关 ---
 .playwright/
 playwright/.auth/
